@@ -32,7 +32,6 @@ var arrayQuotes = [
     'quoted': 'Mark Twain'
     },
 ];
-
 function printQuote(){
     var random = Number.parseInt(Math.random()*arrayQuotes.length+1);
     document.getElementById('quote').textContent = `\' \' ${arrayQuotes[random].quote}\' \'`;
