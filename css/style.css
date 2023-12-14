@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.part1 {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.part1 h1 {
+    font-size: 80px;
+    font-family: Impact;
+    padding: 20px;
+}
+
+.part1 p {
+    font-size: 36px;
+    margin: 30px;
+}
+
+.part1 button {
+    margin: 20px;
+    width: 250px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+}
+
+button:hover {
+    background-color: green;
+}
+.guot {
+    font-size: 36px;
+    margin: 30px;
+}
